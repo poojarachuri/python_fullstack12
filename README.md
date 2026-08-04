@@ -21,7 +21,7 @@ git add .
 git commit -m "Updated python fullstack project files"
 git push origin main
 
-git add.&& git commit  -m "Auto sync updates" && git push origin main
+git add . && git commit -m "Auto sync updates" && git push origin main
 
 DNS - domain
 API - Application Programing Iterface->Stands between frontend and bacend
@@ -40,5 +40,6 @@ for creating env folder (git)        -> python3 -m venv env
 for github codespaces                -> . env/bin/activate  [activation of env]
 
 pip install flask 
+pip install --upgrade pip
 pip freeze > requirements.txt
 pip install -r requirements.txt
