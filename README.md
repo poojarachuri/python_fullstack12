@@ -43,3 +43,25 @@ pip install flask
 pip install --upgrade pip
 pip freeze > requirements.txt
 pip install -r requirements.txt
+. env/bin/activate
+(env) billa@
+
+
+
+
+
+
+
+
+
+
+# status codes
+200  0k
+201 Created
+204 No Content
+400 Bad Request
+401 Unauthorized
+403 Forbidden
+404 Not Found
+500 internal Server Error
+503 Service Unavailable
